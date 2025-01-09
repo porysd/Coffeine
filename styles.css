@@ -1,0 +1,379 @@
+
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 65%);
+}
+
+#loginBar{
+    background-color: hsl(0, 0%, 87%);
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-top: 70px;
+}
+
+#rightPart{
+    background-color: black;
+    border-radius: 30px 0 0 30px;
+    margin: auto;
+    padding: 70px;
+    width: 250px;
+    position: relative;
+}
+
+#headerSI{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight:bolder;
+    color: #F8F4E1;
+    stroke: #F0F0F0;
+    stroke-opacity: 75%;
+    margin: 0;
+    text-shadow: -1px 0, 0 1px, 1px 0, 0 -1px, -1px -1px, 1px 1px, -1px 1px, 1px -1px;
+    letter-spacing: 10px;
+}
+
+#quoteRight{
+    font-size: 10px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#username{
+    font-family: Poppins;
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border:none;
+    padding: 7px;
+}
+
+#password{
+    font-family: Poppins;
+    margin-bottom: 5px;
+    font-size: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border:none;
+    padding: 7px;
+}
+
+#forgotPass{
+    font-size: 8px;
+    margin: 0;
+    margin-left: 118px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+#login{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px 45px;
+    background-color:hsl(50, 62%, 80%);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+#login:hover {
+    background-color:hsl(50, 62%, 90%);
+}
+
+#login:active {
+    background-color: hsl(50, 62%, 85%);
+}
+
+#signup{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 8px 18px;
+    background-color: hsl(50, 62%, 75%);
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#signup:hover {
+    background-color: hsl(50, 62%, 90%);
+}
+
+#signup:active {
+    background-color: hsl(50, 62%, 85%);
+}
+
+#quoteRBottom{ 
+    font-size: 10px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-top: none;
+}
+
+
+
+
+#leftPart{
+    width: 350px;
+    position: relative
+}
+
+#coffeeImg{
+    opacity: 0.75;
+    width: 360px;
+    height: 529px;
+    object-fit: cover;
+    background-position: bottom;
+}
+
+#headerCO{
+    position: absolute;
+    font-family: Poppins;
+    color: #0C0C0C;
+    font-weight: bolder;
+    font-size: 35px;
+    top: 120px;
+    left: 50px;
+    letter-spacing: 15px;
+    text-shadow: -2px 0, 0 2px, 2px 0, 0 -2px, -2px -2px, 2px 2px, -2px 2px, 2px -2px;
+}
+
+#quoteLeft{
+    position: absolute;
+    font-family: Poppins;
+    color: #0C0C0C;
+    font-weight: bolder;
+    font-size: 12px;
+    top: 195px;
+    left: 80px;
+}
+
+#coffeeCup{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    left: 30px;
+}
+
+
+
+#signupBar{
+    background-color: hsl(0, 0%, 87%);
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+#LsignUp{
+    background-color: black;
+    border-radius: 0 30px 30px 0;
+    margin: auto;
+    padding: 70px;
+    width: 270px;
+    position: relative;
+}
+
+#textFirst{
+    color: #F0F0F0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    top: 180px;
+    right: 275px;
+    position: absolute;
+}
+
+#fname{
+    font-family: Poppins;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 8px;
+    width: 130px;
+    border-radius: 10px;
+    border:none;
+    padding: 7px;
+}
+
+#textLast{
+    color: #F0F0F0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    top: 180px;
+    left: 220px;
+    position: absolute;
+}
+
+#lName{
+    font-family: Poppins;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    font-size: 8px;
+    width: 130px;
+    border-radius: 10px;
+    border:none;
+    padding: 7px;
+}
+
+#textNumber{
+    color: #F0F0F0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    top: 230px;
+    right: 255px;
+    position: absolute;
+}
+
+#mNumber{
+    font-family: Poppins;
+    margin-bottom:5px;
+    font-size: 8px;
+    width: 130px;
+    border-radius: 10px;
+    border:none;
+    padding: 7px;
+}
+
+#textEmail{
+    color: #F0F0F0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    top: 230px;
+    left: 219px;
+    position: absolute;
+}
+
+#email{
+    font-family: Poppins;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    font-size: 8px;
+    width: 130px;
+    border-radius: 10px;
+    border:none;
+    padding: 7px;
+}
+
+#textBday{
+    color: #F0F0F0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    top: 283px;
+    right: 283px;
+    position: absolute;
+}
+
+#bDay{
+    font-family: Poppins;
+    margin-bottom:5px;
+    font-size: 8px;
+    border-radius: 10px;
+    border:none;
+    width: 140px;
+    padding: 7px;
+}
+
+#textGender{
+    color: #F0F0F0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    top: 283px;
+    left: 219px;
+    position: absolute;
+}
+
+#Mgender, #Fgender, #Others{
+    font-family: Poppins;
+    margin-bottom:25px;
+    margin-left:22px;
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+
+
+#uName{
+    font-family: Poppins;
+    margin-bottom:5px;
+    font-size: 8px;
+    border-radius: 10px;
+    border:none;
+    width: 130px;
+    padding: 7px;
+}
+
+#pWord{
+    font-family: Poppins;
+    margin-bottom:5px;
+    font-size: 8px;
+    border-radius: 10px;
+    border:none;
+    width: 130px;
+    padding: 7px;
+    margin-bottom: 50px;
+}
+
+
+
+#signUpBtn{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px 45px;
+    background-color:hsl(50, 62%, 80%);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+#quoteLBottom{ 
+    font-size: 10px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    margin-top: none;
+}
+
+
+
+
+
+
+
+#RsignUp{
+    width: 350px;
+    position: relative
+}
+
+#splashImg{
+    opacity: 0.6;
+    width: 350px;
+    height: 580px;
+    object-fit: cover;
+    background-position: bottom;
+}
+
+#quoteSU{
+    font-family: Poppins;
+    top:150px;
+    left: 4px;
+    font-size: 25px;
+    position:absolute;
+    letter-spacing: 5px;
+}
